@@ -1,0 +1,8 @@
+name: createcheck
+on:
+  create
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hi from craete event trigger created based on tag or branch creation"
