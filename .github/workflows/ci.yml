@@ -1,6 +1,6 @@
 name: createcheck
 on:
-  create
+  delete
 jobs:
   job1:
     runs-on: ubuntu-latest
